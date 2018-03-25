@@ -5,14 +5,12 @@
 #define FINGERSSPREAD_PIN 7
 #define DOUBLETAP_PIN 8
      
-     
-     
-     #include <SPI.h>
-      #include <WiFi.h>
-      char ssid[] = "NTU_5G";          //  your network SSID (name) 
-      char pass[] = "40588888";   // your network password
-      int status = WL_IDLE_STATUS;
-      WiFiClient client;
+#include <SPI.h>
+#include <WiFi.h>
+char ssid[] = "NTU_5G";          //  your network SSID (name) 
+char pass[] = "40588888";   // your network password
+int status = WL_IDLE_STATUS;
+WiFiClient client;
 char server[] = "obo.myds.me";
 
 String data;
